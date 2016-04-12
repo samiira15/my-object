@@ -56,8 +56,8 @@ a {
 .page-header {
   color: #fff;
   text-align: center;
-  background-color: #159957;
-  background-image: linear-gradient(120deg, #155799, #159957); }
+  background-color: #977BAD;
+  }
 
 @media screen and (min-width: 64em) {
   .page-header {
@@ -243,3 +243,28 @@ a {
 @media screen and (max-width: 42em) {
   .site-footer {
     font-size: 0.9rem; } }
+
+ /* My custom styles */
+
+
+.page-header {
+  color: #fff;
+  text-align: center;
+    background-color: #977BAD ; }
+  
+
+
+  .main-content h3 { 
+  color: #977BAD ;
+  }
+
+img {
+-webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+  margin-top: 150px;
+  margin-bottom: 100px;
+}
+
